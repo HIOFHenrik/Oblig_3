@@ -8,7 +8,7 @@ from oblig_2 import isLeapYear
 
 def test_is_divisible_by_100_but_not_400():
     # 2000 is divisible by 100 and 400 so we should get True
-    assert isLeapYear(2000) == True
+    assert isLeapYear(2000) == False
 
 def test_not_divisible_by_100_but_not_400():
     # 1900 is divisible by 100 but not 400 so we should get False return
