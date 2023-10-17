@@ -18,3 +18,5 @@ jobs:
         uses: actions/setuo-python@v4
         with:
           python-version: '3.11'
+      - name: Install pytest
+        run: pip install pytest
